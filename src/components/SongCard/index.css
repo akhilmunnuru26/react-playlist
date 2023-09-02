@@ -1,0 +1,48 @@
+.track-item {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  width: 1300px;
+}
+
+.track-image {
+  width: 150px;
+}
+
+.track-name {
+  color: #efeaf0;
+  font-size: 15px;
+}
+
+.genre {
+  color: #efeaf0;
+  font-size: 14px;
+}
+
+.duration {
+  color: #efeaf0;
+  font-size: 14px;
+}
+
+.track-details-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  margin-left: 10px;
+}
+
+.delete-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 25%;
+}
+
+.delete-btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
